@@ -6,4 +6,4 @@
 # add Github
 for data_file in $@
 do
-echo "hello"
+echo "hello in $data_file"
