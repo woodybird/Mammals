@@ -6,4 +6,7 @@
 # add Github
 for data_file in $@
 do
-echo "hello in $data_file"
+echo "species name in $data_file"
+# extract
+cut -d , -f 2 $data_file
+
