@@ -5,3 +5,5 @@
 # Loop over all files
 # add Github
 for data_file in $@
+do
+echo "hello"
