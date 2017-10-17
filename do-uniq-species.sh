@@ -8,5 +8,6 @@ for data_file in $@
 do
 echo "species name in $data_file"
 # extract
-cut -d , -f 2 $data_file
+cut -d , -f 2 $data_file | sort | uniq
+done
 
